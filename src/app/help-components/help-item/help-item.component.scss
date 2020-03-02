@@ -1,3 +1,13 @@
 .item {
-  border-color: red;
+  border-radius: 3px;
+  margin: 5px;
+  background-color: rgba(0,0,0,.15);
+  width: auto;
+  min-height: 50px;
+  padding: 10px;
+  color: rgba(255,255,255,0.85);
+}
+
+.center {
+  text-align: center;
 }

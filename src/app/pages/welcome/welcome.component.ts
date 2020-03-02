@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { HelpItem } from 'src/app/models/help-item';
 
 @Component({
   selector: 'app-welcome',
@@ -7,9 +8,29 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WelcomeComponent implements OnInit {
 
+  helpItems: HelpItem[] = [];
+
   constructor() { }
 
   ngOnInit() {
+    this.helpItems = [
+      {
+        text: 'Checkbox',
+        iconName: 'check-square'
+      },
+      {
+        text: 'Alert',
+        iconName: 'alert'
+      },
+      {
+        text: 'Libro',
+        iconName: 'book'
+      },
+      {
+        text: 'Api',
+        iconName: 'api'
+      }
+    ];
   }
 
 }

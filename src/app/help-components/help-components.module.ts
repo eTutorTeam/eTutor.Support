@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HelpItemComponent } from './help-item/help-item.component';
+import { NzIconModule } from 'ng-zorro-antd';
 
 
 
@@ -12,7 +13,8 @@ import { HelpItemComponent } from './help-item/help-item.component';
     HelpItemComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    NzIconModule
   ]
 })
 export class HelpComponentsModule { }
