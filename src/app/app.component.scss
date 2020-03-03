@@ -71,15 +71,22 @@ nz-header {
 
 nz-content {
   margin: 24px;
-  background: rgba(20, 94, 255, 0.884) !important;
+  background: rgba(255, 255, 255, 1) !important;
 }
 
 .inner-content {
   padding: 24px;
-  background: rgba(20, 94, 255, 0.884);
+  background: rgba(255, 255, 255, 1);
   height: 100%;
 }
 
 .ant-layout {
-  background: rgba(20, 94, 255, 0.884) !important;
+  background: rgba(255, 255, 255, 1) !important;
+}
+
+.main-footer {
+  background: rgb(45, 129, 255);
+  font-size: large;
+  color: white;
+  font-style: oblique;
 }
