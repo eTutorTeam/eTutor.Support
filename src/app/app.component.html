@@ -10,10 +10,15 @@
       <h1>eTutor Help</h1>
     </div>
     <ul nz-menu nzTheme="dark" nzMode="inline" [nzInlineCollapsed]="isCollapsed">
-      <li nz-submenu nzOpen nzTitle="Dashboard" nzIcon="dashboard">
+      <li nz-menu-item nzTitle="Home" nzMatchRouter >
+        <a routerLink="/welcome">
+          Home
+        </a>
+      </li>
+      <li nz-submenu nzOpen nzTitle="Padres" nzIcon="book">
         <ul>
           <li nz-menu-item nzMatchRouter>
-            <a routerLink="/welcome">Welcome</a>
+            <a>Welcome</a>
           </li>
           <li nz-menu-item nzMatchRouter>
             <a>Monitor</a>
@@ -23,7 +28,14 @@
           </li>
         </ul>
       </li>
-      <li nz-submenu nzOpen nzTitle="Form" nzIcon="form">
+      <li nz-submenu nzOpen nzTitle="Tutores" nzIcon="mobile">
+        <ul>
+          <li nz-menu-item nzMatchRouter>
+            <a>Basic Form</a>
+          </li>
+        </ul>
+      </li>
+      <li nz-submenu nzOpen nzTitle="Estudiantes" nzIcon="smile">
         <ul>
           <li nz-menu-item nzMatchRouter>
             <a>Basic Form</a>

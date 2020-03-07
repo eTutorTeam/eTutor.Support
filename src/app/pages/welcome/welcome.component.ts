@@ -15,20 +15,16 @@ export class WelcomeComponent implements OnInit {
   ngOnInit() {
     this.helpItems = [
       {
-        text: 'Checkbox',
-        iconName: 'check-square'
-      },
-      {
-        text: 'Alert',
-        iconName: 'alert'
-      },
-      {
-        text: 'Libro',
+        text: 'Padres',
         iconName: 'book'
       },
       {
-        text: 'Api',
-        iconName: 'api'
+        text: 'Tutores',
+        iconName: 'mobile'
+      },
+      {
+        text: 'Estudiantes',
+        iconName: 'smile'
       }
     ];
   }
