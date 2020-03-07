@@ -1,3 +1,6 @@
+.logo {
+  border-radius: 5px;
+}
 :host {
   display: flex;
   text-rendering: optimizeLegibility;
@@ -70,14 +73,19 @@ nz-header {
 }
 
 nz-content {
-  margin: 24px;
   background: rgba(255, 255, 255, 1) !important;
+
+  // background-image: url("../assets/images/bg.jpg");
+  background-size: cover;
 }
 
 .inner-content {
-  padding: 24px;
+  padding-top: 10%;
   background: rgba(255, 255, 255, 1);
   height: 100%;
+
+  // background-image: url("../assets/images/bg.jpg");
+  background-size: cover;
 }
 
 .ant-layout {
