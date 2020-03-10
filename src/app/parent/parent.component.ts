@@ -18,7 +18,7 @@ export class ParentComponent implements OnInit {
       resp => {
         this.indexItems = resp;
       }
-    )
+    );
   }
 
 }
