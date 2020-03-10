@@ -2,7 +2,7 @@
 <div class="help-items-container">
   <div nz-row [nzGutter]="{ xs: 8, sm: 16, md: 24, lg: 32, xl: 32, xxl: 32 }">
     <div nz-col class="gutter-row center-items" nzSpan="8" *ngFor="let item of helpItems">
-      <app-help-item [helpItem]="item" ></app-help-item>
+      <app-help-item [routerLink]="[item.url]" [helpItem]="item" ></app-help-item>
     </div>
   </div>
 

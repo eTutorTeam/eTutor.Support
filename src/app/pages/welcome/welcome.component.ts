@@ -16,15 +16,18 @@ export class WelcomeComponent implements OnInit {
     this.helpItems = [
       {
         text: 'Padres',
-        iconName: 'book'
+        iconName: 'book',
+        url: '/parent'
       },
       {
         text: 'Tutores',
-        iconName: 'mobile'
+        iconName: 'mobile',
+        url: '/tutor'
       },
       {
         text: 'Estudiantes',
-        iconName: 'smile'
+        iconName: 'smile',
+        url: '/student'
       }
     ];
   }
