@@ -5,15 +5,21 @@
     <div class="col-md-6">
       <h2>¿Qué puedes hacer?</h2>
       <ul>
-        <div *ngFor="let item of indexItems">
+        <div *ngFor="let item of indexItems | async">
           <li>
-            {{item.name}}
+            <a>{{item.name}}</a>
           </li>
         </div>
       </ul>
     </div>
     <div class="col-md-6">
-      Column two
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores porro tempora accusamus enim magni velit dolorum sequi assumenda, sunt unde repellat facere voluptas aspernatur officiis corporis perspiciatis, eius quas natus.
+      </p>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores porro tempora accusamus enim magni velit dolorum sequi assumenda, sunt unde repellat facere voluptas aspernatur officiis corporis perspiciatis, eius quas natus.
+      </p>
+
     </div>
   </div>
 
