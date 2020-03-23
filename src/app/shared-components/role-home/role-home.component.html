@@ -1,0 +1,21 @@
+<div class="item-center">
+  <h1 class="animated fadeIn">{{title}}</h1>
+  <div class="row content">
+    <div class="col-md-6 col-sm-12">
+      <h2>¿Qué puedes hacer?</h2>
+      <ul>
+        <div *ngFor="let item of indexItems | async">
+          <li>
+            <a [routerLink]="[item.url]">{{item.name}}</a>
+          </li>
+        </div>
+      </ul>
+    </div>
+    <div class="col-md-6 col-sm-12">
+      <p *ngFor="let info of roleDescription">
+        {{info}}
+      </p>
+
+    </div>
+  </div>
+</div>

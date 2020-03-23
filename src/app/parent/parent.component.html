@@ -1,26 +1,3 @@
-<div id="container" class="item-center">
-  <h1>Padres</h1>
-  <p>This is a test</p>
-  <div class="row content">
-    <div class="col-md-6">
-      <h2>¿Qué puedes hacer?</h2>
-      <ul>
-        <div *ngFor="let item of indexItems | async">
-          <li>
-            <a>{{item.name}}</a>
-          </li>
-        </div>
-      </ul>
-    </div>
-    <div class="col-md-6">
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores porro tempora accusamus enim magni velit dolorum sequi assumenda, sunt unde repellat facere voluptas aspernatur officiis corporis perspiciatis, eius quas natus.
-      </p>
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores porro tempora accusamus enim magni velit dolorum sequi assumenda, sunt unde repellat facere voluptas aspernatur officiis corporis perspiciatis, eius quas natus.
-      </p>
-
-    </div>
-  </div>
-
-</div>
+<app-background>
+  <app-role-home [title]="'Padres'" [indexItems]="indexItems" [roleDescription]="roleDescription"></app-role-home>
+</app-background>

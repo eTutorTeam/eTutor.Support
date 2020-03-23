@@ -18,21 +18,21 @@
       <li nz-submenu nzOpen nzTitle="Padres" nzIcon="book">
         <ul>
           <li *ngFor="let item of parentItems | async" nz-menu-item nzMatchRouter>
-            <a>{{item.name}}</a>
+            <a [routerLink]="['parent/'+item.url]">{{item.name}}</a>
           </li>
         </ul>
       </li>
       <li nz-submenu nzOpen nzTitle="Tutores" nzIcon="mobile">
         <ul>
           <li *ngFor="let item of tutorItems | async" nz-menu-item nzMatchRouter>
-            <a>{{item.name}}</a>
+            <a [routerLink]="'tutor/'+[item.url]">{{item.name}}</a>
           </li>
         </ul>
       </li>
       <li nz-submenu nzOpen nzTitle="Estudiantes" nzIcon="smile">
         <ul>
           <li *ngFor="let item of studentItems | async" nz-menu-item nzMatchRouter>
-            <a>{{item.name}}</a>
+            <a [routerLink]="'student/'+[item.url]">{{item.name}}</a>
           </li>
         </ul>
       </li>

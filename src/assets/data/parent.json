@@ -1,14 +1,18 @@
 [
   {
-    "name": "Activar y desactivar cuenta de hijo"
+    "name": "Activar y desactivar cuenta de hijo",
+    "url": "activate-children"
   },
   {
-    "name": "Autorizar tutoría"
+    "name": "Autorizar tutoría",
+    "url": "auth-tutorship"
   },
   {
-    "name": "Ver detalle de la tutoría agendada por un hijo"
+    "name": "Ver detalle de la tutoría agendada por un hijo",
+    "url": "tutorship-detail"
   },
   {
-    "name": "Modificar perfil"
+    "name": "Modificar perfil",
+    "url": "modify-profile"
   }
 ]
