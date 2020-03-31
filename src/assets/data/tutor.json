@@ -1,22 +1,22 @@
 [
   {
     "name":"Aceptar tutoría",
-    "url": "s"
+    "url": "accept-tutorship"
   },
   {
     "name":"Terminar tutoría",
-    "url": "s"
+    "url": "end-tutorship"
   },
   {
     "name":"Cancelar tutoría",
-    "url": "s"
+    "url": "cancel-tutorship"
   },
   {
     "name":"Modificar perfil",
-    "url": "s"
+    "url": "modify-profile"
   },
   {
     "name":"Contactar estudiante",
-    "url": "s"
+    "url": "contact-student"
   }
 ]
