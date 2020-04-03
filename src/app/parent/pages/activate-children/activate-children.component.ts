@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DomSanitizer } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-activate-children',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ActivateChildrenComponent implements OnInit {
 
-  constructor() { }
+  constructor(private sanitizer: DomSanitizer) { }
 
   ngOnInit(): void {
+  }
+
+  get videoUrl() {
+    return this.sanitizer.bypassSecurityTrustResourceUrl('https://www.youtube.com/embed/AXpFNOmAUIU');
   }
 
 }
