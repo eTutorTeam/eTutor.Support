@@ -21,7 +21,8 @@ export class StudentComponent implements OnInit {
     this.indexItems = this.studentService.getIndexItems();
     this.roleDescription = [
       // tslint:disable-next-line: max-line-length
-      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores porro tempora accusamus enim magni velit dolorum sequi assumenda, sunt unde repellat facere voluptas aspernatur officiis corporis perspiciatis, eius quas natus.'
+      'Como estudiante, tu deber es continuar aprendiendo y adquiriendo los conocimientos necesarios para poder aprobar tus asignaturas y satisfacer esa sed de conocimiento que llevas dentro.',
+      '¡Te brindamos una serie de herramientas que te pueden ayudar a completar tus objetivos!'
     ];
   }
 

@@ -21,7 +21,8 @@ export class ParentComponent implements OnInit {
     this.indexItems = this.parentService.getIndexItems();
     this.roleDescription = [
       // tslint:disable-next-line: max-line-length
-      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores porro tempora accusamus enim magni velit dolorum sequi assumenda, sunt unde repellat facere voluptas aspernatur officiis corporis perspiciatis, eius quas natus.'
+      'Como padre, tienes la capacidad de monitorear el uso de la aplicación para tu hijo, de forma que te sientas más seguro.',
+      '¡eTutor te ofrece las herramientas que necesitas para que lleves a cabo esa labor!'
     ];
   }
 

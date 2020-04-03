@@ -15,17 +15,17 @@ export class WelcomeComponent implements OnInit {
   ngOnInit() {
     this.helpItems = [
       {
-        text: 'Padres',
+        text: 'Padre',
         iconName: 'book',
         url: '/parent'
       },
       {
-        text: 'Tutores',
+        text: 'Tutor',
         iconName: 'mobile',
         url: '/tutor'
       },
       {
-        text: 'Estudiantes',
+        text: 'Estudiante',
         iconName: 'smile',
         url: '/student'
       }

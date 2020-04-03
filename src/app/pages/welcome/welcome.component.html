@@ -1,15 +1,13 @@
 <h1 class="title">Elige el tipo de usuario que más te identifica:</h1>
-<div class="help-items-container">
-  <div nz-row [nzGutter]="{ xs: 8, sm: 16, md: 24, lg: 32, xl: 32, xxl: 32 }">
-    <div nz-col class="gutter-row center-items" nzSpan="8" *ngFor="let item of helpItems">
-      <app-help-item [routerLink]="[item.url]" [helpItem]="item" ></app-help-item>
-    </div>
+<div class="help-items-container row">
+  <div class="col-lg-4 col-md-4 col-sm-12" *ngFor="let item of helpItems">
+    <app-help-item class="help-item" [routerLink]="[item.url]" [helpItem]="item" ></app-help-item>
   </div>
 
 </div>
-<div class="fb-send-to-messenger"
+<!-- <div class="fb-send-to-messenger"
 messenger_app_id="194057185263259"
 page_id="103923901220726"
 color="blue>"
 size="standard">
-</div>
+</div> -->
