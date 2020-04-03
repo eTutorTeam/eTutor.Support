@@ -1,26 +1,28 @@
 <app-background>
-  <h1>Cancelar tutoría</h1>
-  <p>
-    El tutor puede cancelar una tutoría siempre que ésta no haya iniciado aún. Para cancelar
-    la tutoría debe seguir los siguientes pasos:
-  </p>
-  <ol>
-    <li>
-      Pulsar la fecha de la tutoría en el calendario, la cual se encuentra resaltada de
-color azul. Una vez se realice esta acción, debajo del calendario, se mostrará un
-listado de las tutorías agendadas para esa fecha.
-    </li>
-    <li>
-      Pulsa la opción del listado que corresponda a la tutoría que desea ver. A
-      continuación, se mostrará una pantalla con toda la información referente a la
-      tutoría.
-    </li>
-    <li>
-      Pulsar la opción “cancelar Tutoría”
-    </li>
-  </ol>
-  <p>
-    Una vez realizados los pasos anteriores, la tutoría habrá sido cancelada y se
-    desplegará la pantalla de inicio.
-  </p>
+  <app-tutorial-item [title]="'Cancelar tutoría'" [link]="videoUrl">
+
+    <p>
+      El tutor puede cancelar una tutoría siempre que ésta no haya iniciado aún. Para cancelar
+      la tutoría debe seguir los siguientes pasos:
+    </p>
+    <ol>
+      <li>
+        Pulsar la fecha de la tutoría en el calendario, la cual se encuentra resaltada de
+  color azul. Una vez se realice esta acción, debajo del calendario, se mostrará un
+  listado de las tutorías agendadas para esa fecha.
+      </li>
+      <li>
+        Pulsa la opción del listado que corresponda a la tutoría que desea ver. A
+        continuación, se mostrará una pantalla con toda la información referente a la
+        tutoría.
+      </li>
+      <li>
+        Pulsar la opción “cancelar Tutoría”
+      </li>
+    </ol>
+    <p>
+      Una vez realizados los pasos anteriores, la tutoría habrá sido cancelada y se
+      desplegará la pantalla de inicio.
+    </p>
+  </app-tutorial-item>
 </app-background>
