@@ -3,10 +3,12 @@ import { CommonModule } from '@angular/common';
 import { BackgroundComponent } from './background/background.component';
 import { RoleHomeComponent } from './role-home/role-home.component';
 import { RouterModule } from '@angular/router';
+import { TutorialItemComponent } from './tutorial-item/tutorial-item.component';
 
 
 const components = [
   BackgroundComponent,
+  TutorialItemComponent,
   RoleHomeComponent
 ];
 @NgModule({
@@ -14,7 +16,7 @@ const components = [
     ...components
   ],
   declarations: [
-    ...components,
+    ...components
   ],
   exports: [
     ...components
