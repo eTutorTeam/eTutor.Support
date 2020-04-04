@@ -6,13 +6,15 @@ import { ActivateChildrenComponent } from './pages/activate-children/activate-ch
 import { AuthTutorshipComponent } from './pages/auth-tutorship/auth-tutorship.component';
 import { TutorshipDetailComponent } from './pages/tutorship-detail/tutorship-detail.component';
 import { ModifyProfileComponent } from './pages/modify-profile/modify-profile.component';
+import { RegisterParentComponent } from './pages/register-parent/register-parent.component';
 
 const routes: Routes = [
   { path: '', component: ParentComponent },
   { path: 'activate-children', component: ActivateChildrenComponent},
   { path: 'auth-tutorship', component: AuthTutorshipComponent},
   { path: 'tutorship-detail', component: TutorshipDetailComponent},
-  { path: 'modify-profile', component: ModifyProfileComponent}
+  { path: 'modify-profile', component: ModifyProfileComponent},
+  { path: 'register-parent', component: RegisterParentComponent}
 ];
 
 @NgModule({

@@ -10,6 +10,7 @@ import { CancelTutorshipComponent } from './pages/cancel-tutorship/cancel-tutors
 import { ModifyProfileComponent } from './pages/modify-profile/modify-profile.component';
 import { ContactStudentComponent } from './pages/contact-student/contact-student.component';
 import { SharedComponentsModule } from '../shared-components/shared-components.module';
+import { RegisterTutorComponent } from './pages/register-tutor/register-tutor.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { SharedComponentsModule } from '../shared-components/shared-components.m
     EndTutorshipComponent,
     CancelTutorshipComponent,
     ModifyProfileComponent,
-    ContactStudentComponent
+    ContactStudentComponent,
+    RegisterTutorComponent
   ],
   imports: [
     CommonModule,

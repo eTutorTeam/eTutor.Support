@@ -8,10 +8,11 @@ import { AuthTutorshipComponent } from './pages/auth-tutorship/auth-tutorship.co
 import { TutorshipDetailComponent } from './pages/tutorship-detail/tutorship-detail.component';
 import { ModifyProfileComponent } from './pages/modify-profile/modify-profile.component';
 import { SharedComponentsModule } from '../shared-components/shared-components.module';
+import { RegisterParentComponent } from './pages/register-parent/register-parent.component';
 
 
 @NgModule({
-  declarations: [ParentComponent, ActivateChildrenComponent, AuthTutorshipComponent, TutorshipDetailComponent, ModifyProfileComponent],
+  declarations: [ParentComponent, ActivateChildrenComponent, AuthTutorshipComponent, TutorshipDetailComponent, ModifyProfileComponent, RegisterParentComponent],
   imports: [
     CommonModule,
     ParentRoutingModule,

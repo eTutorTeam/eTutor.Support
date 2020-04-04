@@ -14,5 +14,9 @@
   {
     "name": "Modificar perfil",
     "url": "modify-profile"
+  },
+  {
+    "name": "Registro de padres",
+    "url": "register-parent"
   }
 ]

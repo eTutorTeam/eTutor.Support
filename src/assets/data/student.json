@@ -14,5 +14,9 @@
   {
     "name":"Contactar al tutor",
     "url": "contact-tutor"
+  },
+  {
+    "name": "Registro de estudiantes",
+    "url": "register-student"
   }
 ]
