@@ -1,5 +1,9 @@
 [
   {
+    "name": "Registro de padres",
+    "url": "register-parent"
+  },
+  {
     "name": "Activar y desactivar cuenta de hijo",
     "url": "activate-children"
   },
@@ -14,9 +18,5 @@
   {
     "name": "Modificar perfil",
     "url": "modify-profile"
-  },
-  {
-    "name": "Registro de padres",
-    "url": "register-parent"
   }
 ]

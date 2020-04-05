@@ -1,5 +1,9 @@
 [
   {
+    "name": "Registro de estudiantes",
+    "url": "register-student"
+  },
+  {
     "name": "Agendar una tutoría",
     "url": "schedule-tutorship"
   },
@@ -14,9 +18,5 @@
   {
     "name":"Contactar al tutor",
     "url": "contact-tutor"
-  },
-  {
-    "name": "Registro de estudiantes",
-    "url": "register-student"
   }
 ]

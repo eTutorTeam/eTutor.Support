@@ -1,9 +1,11 @@
-<h1 class="title">Elige el tipo de usuario que más te identifica:</h1>
-<div class="help-items-container row">
-  <div class="col-lg-4 col-md-4 col-sm-12" *ngFor="let item of helpItems">
-    <app-help-item class="help-item" [routerLink]="[item.url]" [helpItem]="item" ></app-help-item>
+<div class="background center-items">
+  <img src="../../../assets/images/Logo.png" />
+  <h1 class="title">¿Con cuál tipo de usuario te identificas más?</h1>
+  <div class="help-items-container row">
+    <div class="col-lg-4 col-md-4 col-sm-12" *ngFor="let item of helpItems">
+      <app-help-item class="help-item" [routerLink]="[item.url]" [helpItem]="item" ></app-help-item>
+    </div>
   </div>
-
 </div>
 <!-- <div class="fb-send-to-messenger"
 messenger_app_id="194057185263259"

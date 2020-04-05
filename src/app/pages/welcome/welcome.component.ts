@@ -16,17 +16,17 @@ export class WelcomeComponent implements OnInit {
     this.helpItems = [
       {
         text: 'Padre',
-        iconName: 'book',
+        iconName: 'fas fa-user-tie',
         url: '/parent'
       },
       {
         text: 'Tutor',
-        iconName: 'mobile',
+        iconName: 'fas fa-chalkboard-teacher',
         url: '/tutor'
       },
       {
         text: 'Estudiante',
-        iconName: 'smile',
+        iconName: 'fas fa-book-reader',
         url: '/student'
       }
     ];

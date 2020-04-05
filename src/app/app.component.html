@@ -15,21 +15,39 @@
           Inicio
         </a>
       </li>
-      <li nz-submenu nzOpen nzTitle="Padres" nzIcon="book">
+      <li nz-submenu nzOpen >
+        <span title>
+          <i class="fas fa-user-tie"></i>
+          <span>
+            Padres
+          </span>
+        </span>
         <ul>
           <li *ngFor="let item of parentItems | async" nz-menu-item nzMatchRouter>
             <a [routerLink]="['parent/'+item.url]">{{item.name}}</a>
           </li>
         </ul>
       </li>
-      <li nz-submenu nzOpen nzTitle="Tutores" nzIcon="mobile">
+      <li nz-submenu nzOpen >
+        <span title>
+          <i class="fas fa-chalkboard-teacher"></i>
+          <span>
+            Tutores
+          </span>
+        </span>
         <ul>
           <li *ngFor="let item of tutorItems | async" nz-menu-item nzMatchRouter>
             <a [routerLink]="'tutor/'+[item.url]">{{item.name}}</a>
           </li>
         </ul>
       </li>
-      <li nz-submenu nzOpen nzTitle="Estudiantes" nzIcon="smile">
+      <li nz-submenu nzOpen>
+        <span title>
+          <i class="fas fa-book-reader"></i>
+          <span>
+            Estudiantes
+          </span>
+        </span>
         <ul>
           <li *ngFor="let item of studentItems | async" nz-menu-item nzMatchRouter>
             <a [routerLink]="'student/'+[item.url]">{{item.name}}</a>

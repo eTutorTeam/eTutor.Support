@@ -1,5 +1,5 @@
 .title {
-  color: rgb(87, 162, 223);
+  color: rgb(255, 255, 255);
   text-align: center;
   margin-bottom: 150px;
   font-size: 40px;
@@ -15,6 +15,18 @@
   align-items: center;
 }
 
-.help-items-container {
-  margin-left: 8%;
+.background {
+  background-color: rgba(0, 0, 0, 0.349);
+  margin: 0 5%;
+  padding: 5% 3%;
+}
+
+@media (max-width: 450px) {
+  .help-items-container {
+    margin-left: 20%;
+  }
+  .background {
+    margin: 0 0;
+    padding: 0 0;
+  }
 }
