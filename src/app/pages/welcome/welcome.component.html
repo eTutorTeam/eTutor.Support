@@ -2,7 +2,7 @@
   <img src="../../../assets/images/Logo.png" />
   <h1 class="title">¿Con cuál tipo de usuario te identificas mejor?</h1>
   <div class="help-items-container row">
-    <div class="col-lg-4 col-md-4 col-sm-12" *ngFor="let item of helpItems">
+    <div class="col-lg-4 col-md-4 col-sm-12 el" *ngFor="let item of helpItems">
       <app-help-item class="help-item" [routerLink]="[item.url]" [helpItem]="item" ></app-help-item>
     </div>
   </div>
