@@ -14,7 +14,7 @@ export class EndTutorshipComponent implements OnInit {
   }
 
   get videoUrl() {
-    return this.sanitizer.bypassSecurityTrustResourceUrl('https://www.youtube.com/embed/CPY_pt8C5Gg');
+    return this.sanitizer.bypassSecurityTrustResourceUrl('https://www.youtube.com/embed/rjuw20VGQz4');
   }
 
 }
